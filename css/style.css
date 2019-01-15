@@ -1,0 +1,256 @@
+body 				{
+					font-family: Raleway, Arial, Helvetica, sans-serif, Source Sans Pro, Verdana;
+					}
+
+#HOME				{
+					height: 920px;
+					padding-bottom: 10px;
+					}
+
+#ABOUT				{height: 940px;
+					padding-top: 10px;
+					}
+
+#PROFILE			{height: 940px;
+					padding-top: 10px;
+
+					}
+
+#CONTACTS			{height: 940px;
+					padding-top: 10px;
+					}
+
+#TOOLS				{height: 940px;
+					padding-top: 10px;
+					}
+
+#navbar				{
+					overflow: hidden;
+					}
+		
+#navbar a			{float:right;
+  					color:#b4a892;
+  					text-align: center;
+  					padding: 35px 20px;
+  					text-decoration: none;
+ 					font-size: 15px;
+					}
+
+#navbar a:hover 	{color: white;
+					padding-top: 20px;
+					transition: all 0.4s ease-in-out;
+					}
+
+#navbar a#active	{text-decoration: underline;
+					 transition: all 0.4s ease-in-out;
+					}
+
+.iconbar a:hover	{padding:15px;
+					}
+
+.content 			{padding: 16px;
+					}
+
+.sticky 			{position: fixed;
+  					top: 0;
+  					width: 99%;
+					}
+
+.sticky + .content {padding-top: 60px;
+					}
+
+hr					{width:95%;
+					}
+
+.hr1				{border-color: #e0e0e0;
+					margin: 0 auto 20px auto;
+					width: 100px !important;
+					}
+
+h2					{font-family:Century;
+					color:#dfdfdf;
+					text-align: center;
+					font-size:70px;
+					}
+
+h3					{font-family:Centaur;
+					color:#dfdfdf;
+					text-align: center;
+					font-size: 40px;
+					}
+
+h4					{font-family:Centaur;
+					color:#dfdfdf;
+					text-align: center;
+					font-size: 35px;
+					}
+
+h5					{font-family:Raleway;
+					text-align: center;
+					color:#dfdfdf;
+					font-size: 29px;
+					}					
+
+.image				{border-radius: 60%;
+					}
+
+/* Social Media Icons */
+.sicons				{padding:5px;
+					text-align:center;
+					}
+
+footer				{position:bottom;
+					width:100%;
+					padding-bottom: 10px;
+					padding-top: 10px;
+					color:#b4a892;
+					background-color: #ffffff;
+					text-align:center;
+					font-size: 17px
+					}
+
+.clear 				{clear:both;
+					}
+
+
+.wrapper			{width:100%;
+					padding: auto;
+					margin: auto;
+
+					}
+
+.content-text		{width: 40%;
+					margin-left: 3.5%;
+					margin-top: 6%;
+					float: left;
+					text-align: center;
+					background-color: pink;
+					box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+					}
+
+.content-img		{width: 40%;
+					margin-right: 2.5%;
+					padding: 15px;
+					float: right;
+					border-radius:5%;
+					box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+					}
+
+.content-txt		{width: 40%;
+					margin-right: 3.5%;
+					margin-top: 6%;
+					float: right;
+					text-align: center;
+					background-color: pink;
+					box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+					}
+
+.content-imge		{width: 40%;
+					margin-left: 2.5%;
+					padding: 15px;
+					float: left;
+					border-radius:5%;
+					box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+					}
+
+.covericons:after	{
+			width: 95%;
+			padding: auto;
+			margin: auto;
+}
+
+.navicons	{
+			width: 20%;
+			float: left;
+			
+}
+
+.covericons > .navicons {
+  padding: 0 30px;
+}
+
+.hr2			{
+			
+			width: 100px !important;
+			margin: 0 auto 20px auto;
+			border-color:black;
+			}
+		
+/* Add styles to the form container */
+.col2  {
+	width: 35%;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+	padding: 5px;
+	margin-left:500px;
+	visibility: visible;
+	animation-delay: 0.9s;
+	animation-name: fadeInUp;}
+
+
+/* Full-width input fields */
+form a:hover  {
+    color: #6D9C91;
+    transition: all 0.4s ease-in-out;
+}
+
+form a  {
+    color: #b4a892; 
+    text-decoration: none;
+}
+
+form    { 
+display: block;
+margin-top: 0em;
+}
+
+input[type="text"],select,textarea
+{
+width: 90%;
+border: #123;
+border-radius: 5px;
+padding: 15px;
+margin-top: 12px;
+margin-bottom: 14px;
+font-size: 16px;
+opacity: 0.9;
+}
+
+input[type="email"]
+{
+width: 90%;
+border: #123;
+border-radius: 5px;
+padding: 15px;
+margin-top: 12px;
+margin-bottom: 14px;
+font-size: 16px;
+opacity: 0.9;
+}
+
+/* Set a style for the submit button */
+input[type="submit"]
+{
+width: 96%;
+height: 60px;
+border: none;
+cursor: pointer;
+background-color:#b4a892;
+color: #ffffff;
+border-radius: 5px;
+padding: 15px;
+margin-top: 12px;
+margin-bottom: 14px;
+font-weight: bold;
+font-size: 16px;
+transition: all 0.4s ease-in-out;
+opacity: 0.9;
+}
+
+input[type="submit"]:hover {
+background-color:#333333;
+color:#ffffff;
+transition: all 0.4s ease-in-out;
+ opacity: 0.9;
+}

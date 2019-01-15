@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Using A Mate -->
+	<meta charset="UTF-8">
+	<!-- End -->
+
+	<title>Sibusiso Mashinini</title>
+
+	<!-- Add A CSS Hyperlink -->
+	<link href="css/style.css" rel="stylesheet">
+	<!-- End -->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       
+
+	<link rel="icon" type="image/ico" href="images/smi.jpg" />
+
+<style>
+#myGif		{background-image:url('https://sbudar24.github.io/my%20gif/home%20page.gif');
+			height: 100%; 
+			width: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity:0.9;
+}
+
+#myBp		{background-image:url('images/whole_network15.png');
+			height: 100%; 
+			width: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity:1;
+}
+
+#myPp		{background-image:url('images/whole_network16.png');
+			height: 100%; 
+			width: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity:1;
+}
+
+#myGif, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.col-1 {
+  position: relative;
+  width: 50%;
+}
+
+.photo {
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 4%;
+  right: 0;
+  background-color: #000;
+  overflow: hidden;
+  width: 92%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border-radius:5%;
+  
+}
+
+.col-1:hover .overlay {
+  opacity: 0.9;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.txt {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.txts {
+  color: #fff;
+  background-color: #000;
+  border: #b4a892 1px solid;
+  padding: 5px 10px;
+  text-decoration: none;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.txts:hover {
+  color: #000;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+button 		{
+	color: #fff;
+  background-color: #000;
+  border: #b4a892 1px solid;
+  padding: 5px 10px;
+  text-decoration: none;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+button:hover {
+  color: #000;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.col-1	{
+			float: left;
+  			width: 45%;
+}
+.col-101	{
+			width: 80%;
+			padding: auto;
+			margin: auto;
+			clear: both;
+			
+}
+
+.col-101 > .col-1 {
+  padding: 0 25px;
+}
+
+.col-101:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+	
+	<div id="myGif">
+	<!--creating a navigation container-->
+	<div id="navbar">
+		<a href="#TOOLS">TOOLS</a>
+		<a href="#CONTACTS">CONTACTS</a>				
+		<a href="#PROFILE">PROFILE</a>
+		<a href="#ABOUT">ABOUT</a>
+		<a href="#HOME">HOME</a> 
+	</div>
+	<!-- End -->
+	
+	<!-- Home Section -->
+	<section id="HOME"><a id="active"></a>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<h3>WELCOME TO MY PORTFOLIO</h3>
+	<h2>Hello, I'm Sibusiso.</h2>
+	<br><br><br><br><br>
+	</section>
+	</div>
+	<!-- End -->
+	
+
+	<div id="myBp">
+	<!-- About Section -->
+	<section id="ABOUT">
+		<br><br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		<br><br>
+		<h4><p><b>Freelance Web Designer</b> & <b>Front-End Developer</b> <br>based in Gauteng, South Africa.<br>
+		I love building sites from start to finish<br> and enjoy bringing ideas to life in the browser.<br> I can help you build your next product. </p></h4>
+
+	<!-- Inserting Home Image -->
+		<center><div class="image"><img src="images/IMG-20160706-WA0011.jpg" style="width:20%; height:33%; border-radius:60%;"></div></center>
+		<br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		
+	<!-- End -->
+	<!-- End -->
+	</section>
+	</div>
+
+	<div id="myPp">
+	<!-- Profile Section -->
+	<section id="PROFILE">
+			<br><br><br><br><br><br>
+		<div class="hr2">
+		<hr>
+		</div>
+		<br><br><br>
+
+		<div class="col-101">
+		<div class="col-1">
+  <img src="logo/tablet.png" alt="Leviticus Photography" class="photo" style="width: 100%;">
+  <div class="overlay">
+    <div class="txt">Leviticus Photography</div>
+    <a href="http://leviticusphotography.tk/" class="txts">View Project</a>
+  </div>
+</div>
+
+
+<div class="col-1">
+  <img src="logo/LP add.png" alt="Leviticus Pizza" class="photo" style="width: 100%;">
+  <div class="overlay">
+    <div class="txt">Leviticus Pizza</div>
+    <button class="txts" class="mybutton" onClick="myFunctions()" id="myFunction">View Project</button><br><br>
+  </div>
+</div>
+</div>
+		<div class="clear">
+			<br><br><br><br><br>
+			</div>
+			<div class="clear">
+		<div class="hr2">
+		<hr>
+		</div>
+</div>
+		<div class="clear">
+		<br><br><br><br><br>
+		</div>
+	</section>
+	
+	<!-- End -->
+
+	<div id="myBp">
+	<!-- Contact Section -->
+	<section id="CONTACTS">
+		<br><br><br><br><br><br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		<br><br><br><br>
+		<div class="col2">
+			<form>
+					<h5>	
+						— Address —<br>
+						<a href="">17227 Adagio Street<br>Braamfischervill Phase 4<br>1875</a><br><br>
+						— Call —<br>
+						078 850 8156<br>
+ 						<br>
+						— Email —<br>
+						<a href="mailto:leviticusphotograpy02@outlook.com">sibusisomashinini@outlook.com</a>
+					</h5> 
+			</form>
+		</div>
+		<div class="clear">
+		<br><br><br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		</div>
+
+	</section>
+	<!-- End -->
+	</div>
+	<div class="clear"></div>
+
+	<!-- Creating The Footer -->
+	<section id="TOOLS">
+		<br><br><br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		<br><br>
+	<div class="covericons" style="margin-bottom: 15%; margin-top: 3%">
+		<div class="navicons" style="margin-left: 15%;">
+			<img id="myImg" src="my logos/HTML_Logo.png" width="60%">
+		</div>
+		<div class="navicons">
+			<img id="myImg" src="my logos/CSS 3.png" width="45%">
+		</div>
+		<div class="navicons">
+			<img id="myImg" src="my logos/JavaScript-logo.png" width="60%">
+		</div>
+	</div>
+	<br><br>
+	<div class="covericons" style="margin-bottom: 15%; margin-top: 7%; margin-left: 28%;">
+		<div class="navicons">
+			<img id="myImg" src="my logos/python-logo.png" style="width:90%; ">
+		</div>
+		<div class="navicons">
+			<img id="myImg" src="my logos/PHP-logo.png" width="300px;">
+		</div>
+	</div>
+	<br><br><br><br><br><br>
+		<div class="hr1">
+		<hr>
+		</div>
+		<br>
+	</section>
+
+	<footer>
+	<!-- Creating Social Media Icornbar-->
+	<div class="clear">
+		<br>
+	<div class="iconbar">
+	<div class="sicons">
+			<a href="0611976816"> <img src="logo/md_5a97a30b8a950.jpg" width="3%"></a>
+			<a href="https://www.facebook.com/twentyfirst.centurionsvibe/"><img src="logo/circle-facebook_318-10967.jpg" width="3%"></a>
+			<a href="https://www.instagram.com/sbudar_24/"><img src="logo/images.png" width="3%"></a>
+			<a href="https://twitter.com/Sbudar_24"><img src="logo/social-twitter-in-acircle-logo_318-28676.jpg" width="3%"></a>
+			<a href="mailto:sibusisomashinini@outlook.com"><img src="logo/gmail.png" width="3%"></a>
+	</div>
+	</div>
+	</div>
+	<!-- End -->
+
+<footer>&copy;2018 designed by <i>S. M Web Studio</i></footer>
+	<!-- End -->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+function myFunctions() {
+	alert("This Website Is Under Construction!");
+}
+</script>
+</body>
+</html>
